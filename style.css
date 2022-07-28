@@ -1,0 +1,80 @@
+.new{
+  position: relative;
+  right:-100px;
+ 
+}
+.car-img{
+  height: 600px;
+  width: 100%;
+}
+.txt-dark-light{
+  position: absolute;
+  padding: 40px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0,0,0, 0.4);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.my-btn {
+  background: #fff;
+  color: #178ce9;
+  font-size: 24px;
+  font-weight: 700;
+}
+.my-btn:hover{
+  background: #178ce9;
+  color: #fff;
+}
+.dis-txt h1{
+  font-size: 42px;
+}
+.price{
+  color: #178ce9;
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile{
+  height: 200px; 
+  background: #178ce9;
+}
+@media screen and (max-width: 768px){
+  .car-img{
+    height: 300px;
+  }
+  .imge{
+    width: 100%;
+    height: 300px;
+  }
+  .txt{
+    height: 200px;
+  }
+  .txt h4{
+    font-size: 32px;
+  }
+  .txt .price{
+    font-size: 26px;
+    }
+    .mobile{
+      flex-direction: column;
+      text-align: center;
+      height: 300px;
+    }
+}
+@media screen and (min-width: 789px) and (max-width: 992px) {
+      .mobile{
+      flex-direction: column;
+      text-align: center;
+      height: 300px;
+    }
+}
